@@ -1,0 +1,17 @@
+﻿@page "/stars"
+
+<h1>Stars</h1>
+
+<p role="status">Current count: @radiusInKilometers</p>
+
+<button class="btn btn-primary">Click me</button>
+
+
+@code {
+	private int radiusInKilometers = 0;
+
+    private void Count()
+    {
+        radiusInKilometers++;
+    }
+}
